@@ -1,0 +1,29 @@
+.toggles {
+    border: 1.5px solid #E6E6E6;
+    border-radius: 0.5rem;
+    width: 38rem;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 0.65rem 2.5rem;
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .btn-primary.active {
+    background-color: #0e1a45;
+    color: #fff;
+  }
+  
